@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\Code implementation\EEG cap\EEG cap\bci_proj-master\bci-python\controller.py", line 239, in win_evt
+    self.fs.flush_data()
+  File "F:\Code implementation\EEG cap\EEG cap\bci_proj-master\bci-python\edfSaver.py", line 228, in flush_data
+    self.f = pyedflib.EdfWriter(self.filePathName, num_channels, file_type=pyedflib.FILETYPE_EDFPLUS)
+  File "D:\LenovoSoftstore\anaconda3\envs\psychopy_env\lib\site-packages\pyedflib\edfwriter.py", line 340, in __init__
+    raise OSError(write_errors[self.handle])
+OSError: file has already been opened
