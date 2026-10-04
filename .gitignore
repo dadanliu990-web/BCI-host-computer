@@ -25,3 +25,4 @@
 crash_log.txt
 *Setting.ini
 eeg_waveform_app_simple/ui_config/user_config*.json
+eeg_waveform_app_new_protocol/ui_config/user_config*.json
