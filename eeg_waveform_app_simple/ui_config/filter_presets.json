@@ -1,0 +1,46 @@
+{
+    "presets": {
+        "RAW": {
+            "description": "No filtering, raw signal",
+            "lowcut": null,
+            "highcut": null,
+            "notch": null,
+            "order": 4
+        },
+        "Broadband": {
+            "description": "0.5-40Hz bandpass + 50Hz notch",
+            "lowcut": 0.5,
+            "highcut": 40.0,
+            "notch": 50.0,
+            "order": 4
+        },
+        "Alpha": {
+            "description": "8-13Hz alpha band",
+            "lowcut": 8.0,
+            "highcut": 13.0,
+            "notch": null,
+            "order": 4
+        },
+        "Beta": {
+            "description": "13-30Hz beta band",
+            "lowcut": 13.0,
+            "highcut": 30.0,
+            "notch": null,
+            "order": 4
+        },
+        "Low Theta": {
+            "description": "4-8Hz theta band",
+            "lowcut": 4.0,
+            "highcut": 8.0,
+            "notch": null,
+            "order": 4
+        },
+        "Gamma": {
+            "description": "30-45Hz gamma band",
+            "lowcut": 30.0,
+            "highcut": 45.0,
+            "notch": null,
+            "order": 4
+        }
+    }
+}
