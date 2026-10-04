@@ -26,6 +26,22 @@ python app.py
 
 `ui_config/filter_presets.json` 保存默认滤波方案。个人设备配置和窗口状态在本机运行后生成，已被 `.gitignore` 排除。
 
+## 启动界面
+
+以下为程序启动后的界面示意。未连接采集设备时，波形和功率谱区域为空白；截图没有使用真实 EEG 数据。
+
+### 主控制窗口
+
+![主控制窗口](docs/screenshots/main-window.png)
+
+### 波形与通道选择
+
+![波形与通道选择窗口](docs/screenshots/waveform-window.png)
+
+### 功率谱与通道选择
+
+![功率谱与通道选择窗口](docs/screenshots/spectrum-window.png)
+
 ## 主要文件
 
 - `app.py`：启动入口。
