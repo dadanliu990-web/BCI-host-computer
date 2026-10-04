@@ -47,6 +47,6 @@ python run.py --port COM6
 - `serial_to_lsl_fixed.py`：自研板串口到 LSL 的桥接。
 - `labrecorder_controller.py`：LabRecorder 控制接口。
 - `requirements.txt`：Python 运行依赖。
-- `LabRecorder/`：LabRecorder 可执行程序和第三方许可证。
+- `LabRecorder/`：第三方许可证文件；LabRecorder 运行程序需另行安装官方发行版。
 
 本文件夹提供 Python 源码运行方式；不包含本机 PyInstaller 打包目录、个人窗口布局配置、录制文件、虚拟环境、测试或分析程序。
